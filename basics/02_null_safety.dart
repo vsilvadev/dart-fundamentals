@@ -10,10 +10,11 @@ void main() {
 
   //We can use the ! operator to make a variable non-nullable, I'm telling that this variable will not be null
   print(name!);
+  name = null;
 
   //We can use the late operator to make a variable non-nullable, but we need to initialize it later
   late String surname;
   surname = 'Silva';
   print(surname);
-  // surname = null; //This will throw an error, when using late this variable can't be null after initialize.
+  // surname = null; //This will throw an error, when using late this variable can't be null after initialized.
 }
