@@ -7,6 +7,8 @@ void main() {
     print('Password length error');
   } catch (e) {
     print('Another login error');
+  } finally {
+    print('Login finished');
   }
 }
 
